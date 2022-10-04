@@ -6,9 +6,14 @@ Convert JSON files to CSV files to record notion table for using [lm-evaluation-
 - pandas
 
 ## How to use
+### Run script
+The script will generate one csv file for specific num_few_shot, step.
 ```sh
 python make_csv.py --model {model} --base {base_dir} --output {output_dir} --step {training_step} --few_shot {number_of_few_shot}
 ```
+### Merge with CSV in Notion
+Click the button at the table, and import csv file in table.
+![](img/img.png)
 
 ## Data hierarchy
 
